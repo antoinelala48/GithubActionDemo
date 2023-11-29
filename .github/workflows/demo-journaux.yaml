@@ -15,3 +15,8 @@ jobs:
   steps:
    - run: echo "Premier Job"
    - run: echo "Fin"
+   - name: Setup Java JDK
+     uses: actions/setup-java@v4.0.0
+     with:
+      # The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file
+      java-version: 1.7          
