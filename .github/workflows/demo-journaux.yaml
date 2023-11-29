@@ -7,3 +7,10 @@ jobs:
   steps:
    - run: echo "Premier Job"
    - run: echo "Fin"
+
+ Second-Job:
+  name: Second-Job
+  runs-on: Ubuntu-latest
+  steps:
+   - run: echo "Premier Job"
+   - run: echo "Fin"
